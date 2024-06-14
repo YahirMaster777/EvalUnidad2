@@ -1,5 +1,5 @@
 <template>
-    <div class="bg-gray-900 text-white p-8 rounded-lg">
+    <div class="bg-gray-900 text-white m-4 p-8 rounded-lg">
         <div v-if="mensaje">{{ mensaje }}</div>
         <h1>Insertar Datos</h1>
         <form @submit.prevent="insertarDatos" class="grid grid-cols-1 md:grid-cols-4 gap-4">

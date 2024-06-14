@@ -1,5 +1,5 @@
 <template>
-    <div class="bg-gray-900 text-white p-8 rounded-lg">
+    <div class="bg-gray-900 text-white p-8 m-4 rounded-lg">
         <h2 class="text-2xl font-bold mb-4">Registro de Bebé</h2>
 
         <div v-if="message" class="mb-4">
